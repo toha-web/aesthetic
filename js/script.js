@@ -32,7 +32,7 @@ let index = 0;
 let prevIndex;
 
 async function getSliderData() {
-    const response = await fetch("../js/data.json");
+    const response = await fetch("./js/data.json");
     projects = await response.json();
     sliderInit(projects, index);
     if(projects.length > 1){
