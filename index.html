@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="preload" href="./images/pathes.svg" as="image" type="image/svg+xml">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Inter:regular,500,700,900&display=swap" as="font" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Aesthetic Studio</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="./images/Logo.svg" alt="Logo">
+            </div>
+            <button class="button-order">Order a consultation</button>
+            <nav>
+                <div class="menu-icon">
+                    <svg class="burger" viewBox="20 20 60 60" width="0%" height="0%">
+                            <path class="line top" d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20" />
+                            <path class="line middle" d="m 30,50 h 40" />
+                            <path class="line bottom" d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20" />
+                        </svg>
+                </div>
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About Studio</a></li>
+                    <li><a href="#projects">Our Projects</a></li>
+                    <li><a href="#tariffs">Tariffs</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="content">
+        <div class="container">
+            <section id="hero">
+                <div class="hero-main-content">
+                    <div class="intro">
+                        <h2 class="intro-title">Interiors Studio</h2>
+                        <p class="intro-info">We create modern interior design for apartments and houses in New York</p>
+                    </div>
+                    <div class="promo">
+                        <h1 class="promo-slogan">Design that Adds Flavor to Your Life!</h1>
+                        <div class="promo-image">
+                            <img loading="lazy" src="./images/hero.jpg" alt="Hero Image">
+                        </div>
+                    </div>
+                </div>
+                <div class="present">
+                    <div class="present-title">Free Designer Chandelier</div>
+                    <p class="present-description">When you choose the All-Inclusive package</p>
+                    <div class="present-image">
+                        <img loading="lazy" src="./images/chandelier.jpg" alt="Present Chandelier">
+                    </div>
+                    <button class="present-order">Choose tariff</button>
+                </div>
+            </section>
+            <section id="progress">
+                <div class="progress-cards">
+                    <div class="progress-card">
+                        <span class="progress-quantity">10</span>
+                        <span class="progres-name">years</span>
+                        <span class="progress-desc">experience</span>
+                    </div>
+                    <div class="progress-card">
+                        <span class="progress-quantity">360</span>
+                        <span class="progres-name">clients</span>
+                        <span class="progress-desc">who enjoy their home</span>
+                    </div>
+                    <div class="progress-card">
+                        <span class="progress-quantity">2</span>
+                        <span class="progres-name">weeks</span>
+                        <span class="progress-desc">average development time for your design project</span>
+                    </div>
+                </div>
+            </section>
+            <section id="about">
+                <h2 class="about-title">About Studio</h2>
+                <div class="welcome-text">Welcome to our studio, where modern design art comes to life in unique interiors.</div>
+                <p class="about-text">We are a creative team united by a passion for creating spaces that inspire and bring joy. Our professional designers carefully listen to your needs to turn your dreams into reality. Regardless of style - whether modern minimalism or classic elegance - we craft unique concepts, highlighting your individuality. Your home is your space for self-expression, and we're ready to help you give it a distinctive character. Entrust us with creating your perfect interior, where aesthetics meets functionality.</p>
+            </section>
+            <section id="projects">
+                <div class="projects-header">
+                    <h2 class="projects-title">Our projects</h2>
+                    <div class="projects-slogan">Your home<br />is your place of power</div>
+                </div>
+                <div class="single-project">
+                    <div class="project-info">
+                        <div class="project-title"><span>Two-bedroom apartment</span></div>
+                        <p class="project-description"><span>Our latest project showcases a cozy two-bedroom apartment where modern style meets functionality. We've crafted a space that reflects the client's individuality, incorporating contemporary design trends. The combination of stylish furniture, warm tones, and intelligent solutions makes this apartment comfortable and inspiring. The project embodies our design principles: attention to detail, functionality, and aesthetics. The result is a perfect living space that expresses the client's personal style.</span></p>
+                        <div class="project-params">
+                            <div><span>100 m<sup>2</sup></span></div>
+                            <div><span>2 weeks</span></div>
+                            <div><span>young family</span></div>
+                        </div>
+                    </div>
+                    <div class="project-slider">
+                        <div class="project-slider-image">
+                            <img loading="lazy" src="./images/young-family.jpg" alt="Project Image">
+                        </div>
+                        <div class="button-prev disabled">
+                                <svg width="40px" height="40px" viewBox="-9.1 -9.1 109.20 109.20" transform="rotate(45)matrix(1, 0, 0, 1, 0, 0)"><path class="st0" d="M81.8,10.6C67.4,17.8,55,31.1,43.1,41.7C35,49,27.1,56.6,19.3,64.2c2.8-12.4,3.9-26.1-1.1-36.3 c-2.5-5-8.9-1.9-9.4,2.6c-0.8,7.6,0.5,15.5,0,23.2C8.3,61.9,7,70.1,4.8,78c-1.1,4,2.6,7.2,6.4,6.4c9.1-1.9,18.2-2.8,27.5-2.8 c8.5,0.1,17.1,2,25.5,1.3c2.3-0.2,3.4-3.2,1.2-4.5c-11.5-7-27.5-7.6-42-6.2c8.7-7.3,17.5-14.6,26.1-21.9C61.8,39.9,77,30.2,87,17.4 C90,13.7,86.4,8.3,81.8,10.6z"></path></svg>
+                        </div>
+                        <div class="button-next disabled">
+                            <svg width="40px" height="40px" viewBox="-9.1 -9.1 109.20 109.20" transform="rotate(45)matrix(-1, 0, 0, -1, 0, 0)"><path class="st0" d="M81.8,10.6C67.4,17.8,55,31.1,43.1,41.7C35,49,27.1,56.6,19.3,64.2c2.8-12.4,3.9-26.1-1.1-36.3 c-2.5-5-8.9-1.9-9.4,2.6c-0.8,7.6,0.5,15.5,0,23.2C8.3,61.9,7,70.1,4.8,78c-1.1,4,2.6,7.2,6.4,6.4c9.1-1.9,18.2-2.8,27.5-2.8 c8.5,0.1,17.1,2,25.5,1.3c2.3-0.2,3.4-3.2,1.2-4.5c-11.5-7-27.5-7.6-42-6.2c8.7-7.3,17.5-14.6,26.1-21.9C61.8,39.9,77,30.2,87,17.4 C90,13.7,86.4,8.3,81.8,10.6z"></path></svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="phantom"></div>
+            </section>
+            <section id="tariffs">
+                <div class="tariff-visual">
+                    <div class="tariff-title">Tariff “Visual”</div>
+                    <ul class="tariff-description">
+                        <li>Design project</li>
+                        <li>3D visualization</li>
+                        <li>Selection of materials, furniture and decor</li>
+                    </ul>
+                    <div class="tariff-bottom">
+                        <div class="tariff-price">50$ m<sup>2</sup></div>
+                        <button class="button-order">Order a calculation</button>
+                    </div>
+                </div>
+                <div class="tariff-all-inclusive">
+                    <div class="tariff-title">Tariff “All inclusive”</div>
+                    <ul class="tariff-description">
+                        <li>Design project</li>
+                        <li>3D visualization</li>
+                        <li>Selection and ordering of all materials, furniture and decor</li>
+                        <li>Selection of a repair team to complete the design project</li>
+                        <li>Author's supervision throughout the entire renovation</li>
+                        <li>1 year guarantee for repairs of your property</li>
+                    </ul>
+                    <div class="tariff-bottom">
+                        <div class="tariff-price">100$ m<sup>2</sup></div>
+                        <button class="button-order">Order a calculation</button>
+                    </div>
+                </div>
+            </section>
+            <section id="gallery">
+                <div class="gallery-container">
+                    <div class="image-container">
+                        <img loading="lazy" src="./images/gallery_1.jpg" alt="Gallery Photo">
+                    </div>
+                    <div class="image-container">
+                        <img loading="lazy" src="./images/gallery_2.jpg" alt="Gallery Photo">
+                    </div>
+                    <div class="image-container">
+                        <img loading="lazy" src="./images/gallery_3.jpg" alt="Gallery Photo">
+                    </div>
+                    <div class="image-container">
+                        <img loading="lazy" src="./images/gallery_4.jpg" alt="Gallery Photo">
+                    </div>
+                    <div class="image-container">
+                        <img loading="lazy" src="./images/gallery_5.jpg" alt="Gallery Photo">
+                    </div>
+                    <div class="image-container">
+                        <img loading="lazy" src="./images/gallery_6.jpg" alt="Gallery Photo">
+                    </div>
+                    <div class="image-container">
+                        Modern
+                    </div>
+                    <div class="image-container">
+                        Elegance
+                    </div>
+                    <div class="image-container">
+                        Minimalism
+                    </div>
+                    <div class="image-container">
+                        Classic
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer" id="contacts">
+        <div class="container">
+            <h2 class="contacts-title">Contacts</h2>
+            <div class="contacts-info">
+                <div class="left-col">
+                    <div class="phone">
+                        <span>Telephone:</span>
+                        <span>+1 (123) 456-7890</span>
+                    </div>
+                    <div class="address">
+                        <span>Address:</span>
+                        <span>Main Street, New York, NY 10001</span>
+                    </div>
+                </div>
+                <div class="right-col">
+                    <div class="hours">
+                        <span>Office hours:</span>
+                        <span>Mon–Sat from 9:00 to 19:00</span>
+                        <span>In touch with clients 24/7</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="logo">
+                    <img src="./images/Logo.svg" alt="Logo">
+                </div>
+                <button class="button-order">Order a consultation</button>
+            </div>
+        </div>
+        <div class="copyright">
+            Development by <a href="mailto:t.info@ukr.net">Anton Biletskyi</a>
+        </div>
+    </footer>
+    <script defer src="./js/script.js"></script>
+</body>
+</html>

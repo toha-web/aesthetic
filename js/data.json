@@ -1,0 +1,38 @@
+[
+    {
+        "id": "0",
+        "title": "Two-bedroom apartment",
+        "description": "Our latest project showcases a cozy two-bedroom apartment where modern style meets functionality. We've crafted a space that reflects the client's individuality, incorporating contemporary design trends. The combination of stylish furniture, warm tones, and intelligent solutions makes this apartment comfortable and inspiring. The project embodies our design principles: attention to detail, functionality, and aesthetics. The result is a perfect living space that expresses the client's personal style.",
+        "square": "100",
+        "time": "2 weeks",
+        "for": "young family",
+        "image": "./images/young-family.jpg"
+    },
+    {
+        "id": "1",
+        "title": "One-bedroom apartment",
+        "description": "The combination of stylish furniture, warm tones, and intelligent solutions makes this apartment comfortable and inspiring. The project embodies our design principles: attention to detail, functionality, and aesthetics. The result is a perfect living space that expresses the client's personal style.",
+        "square": "80",
+        "time": "10 days",
+        "for": "family",
+        "image": "./images/gallery_5.jpg"
+    },
+    {
+        "id": "2",
+        "title": "Openspace apartment",
+        "description": "The combination of stylish furniture, warm tones, and intelligent solutions makes this apartment comfortable and inspiring. The project embodies our design principles: attention to detail, functionality, and aesthetics. The result is a perfect living space that expresses the client's personal style. The combination of stylish furniture, warm tones, and intelligent solutions makes this apartment comfortable and inspiring. The project embodies our design principles: attention to detail, functionality, and aesthetics. The result is a perfect living space that expresses the client's personal style.",
+        "square": "180",
+        "time": "20 days",
+        "for": "big family",
+        "image": "./images/gallery_3.jpg"
+    },
+    {
+        "id": "3",
+        "title": "Country house",
+        "description": "The combination of stylish furniture, warm tones, and intelligent solutions makes this apartment comfortable and inspiring. The project embodies our design principles: attention to detail, functionality, and aesthetics. The result is a perfect living space that expresses the client's personal style. The combination of stylish furniture, warm tones, and intelligent solutions makes this apartment comfortable and inspiring. The project embodies our design principles: attention to detail, functionality, and aesthetics. The result is a perfect living space that expresses the client's personal style.",
+        "square": "150",
+        "time": "1 week",
+        "for": "for all",
+        "image": "./images/gallery_1.jpg"
+    }
+]
