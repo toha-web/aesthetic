@@ -1121,6 +1121,7 @@ header{
             grid-column: 1 / span 3;
             grid-row: 1 / span 12;
             clip-path: url("../images/pathes.svg#galleryBigPath");
+            -webkit-clip-path: url("../images/pathes.svg#galleryBigPath");
         }
         &:nth-of-type(2){
             grid-column: 1 / span 3;
