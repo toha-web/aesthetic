@@ -787,11 +787,15 @@ header{
                 align-items: center;
                 justify-content: center;
                 cursor: pointer;
+                -webkit-tap-highlight-color: transparent;
+                touch-action: manipulation;
                 svg{
                     transition: all 0.25s;
                 }
-                &:hover svg{
-                    fill: white;
+                @media (hover: hover) and (pointer: fine){
+                    &:hover svg{
+                        fill: white;
+                    }
                 }
                 &:active{
                     box-shadow: inset 0 0 5px 0px white;
@@ -819,11 +823,15 @@ header{
                 align-items: center;
                 justify-content: center;
                 cursor: pointer;
+                -webkit-tap-highlight-color: transparent;
+                touch-action: manipulation;
                 svg{
                     transition: all 0.25s;
                 }
-                &:hover svg{
-                    fill: white;
+                @media (hover: hover) and (pointer: fine){
+                    &:hover svg{
+                        fill: white;
+                    }
                 }
                 &:active{
                     box-shadow: inset 0 0 5px 0px white;
