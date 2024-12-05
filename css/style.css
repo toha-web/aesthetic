@@ -201,7 +201,7 @@ header .logo img {
   align-items: flex-start;
   justify-content: space-between;
   gap: 20px;
-  clip-path: url("../images/pathes.svg#heroSection");
+  clip-path: url("#heroSection");
 }
 #hero .intro {
   width: 30%;
@@ -260,7 +260,7 @@ header .logo img {
   gap: 15px;
   background-color: #3B342E;
   color: white;
-  clip-path: url("../images/pathes.svg#presentSection");
+  clip-path: url("#presentSection");
 }
 #hero .present-title {
   font-weight: 700;
@@ -473,7 +473,7 @@ header .logo img {
   left: 0;
   top: 100%;
   margin-top: -2px;
-  clip-path: url("../images/pathes.svg#dividerTop");
+  clip-path: url("#dividerTop");
 }
 #about .about-title {
   font-weight: 700;
@@ -534,7 +534,7 @@ header .logo img {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  clip-path: url("../images/pathes.svg#dividerBottom");
+  clip-path: url("#dividerBottom");
 }
 #projects .projects-header .projects-title {
   font-weight: 700;
@@ -756,7 +756,7 @@ header .logo img {
   aspect-ratio: 630/500;
   margin: 0 auto;
   border-radius: 30px;
-  clip-path: url("../images/pathes.svg#sliderPath");
+  clip-path: url("#sliderPath");
   overflow: hidden;
   display: flex;
   align-items: center;

@@ -204,6 +204,7 @@ header{
 #hero{
     position: relative;
     margin-bottom: 50px;
+    
     .hero-main-content{
         background-color: $lightCaramel;
         border-radius: $br30;
@@ -211,7 +212,7 @@ header{
         align-items: flex-start;
         justify-content: space-between;
         gap: 20px;
-        clip-path: url("../images/pathes.svg#heroSection");
+        clip-path: url("#heroSection");
     }
     .intro{
         width: 30%;
@@ -268,7 +269,7 @@ header{
         gap: 15px;
         background-color: $brownColor;
         color: white;
-        clip-path: url("../images/pathes.svg#presentSection");
+        clip-path: url("#presentSection");
         &-title{
             @include font20bold;
             text-align: center;
@@ -478,7 +479,7 @@ header{
         left: 0;
         top: 100%;
         margin-top: -2px;
-        clip-path: url("../images/pathes.svg#dividerTop");
+        clip-path: url("#dividerTop");
     }
 
     .about-title{
@@ -535,7 +536,7 @@ header{
         display: flex;
         align-items: flex-end;
         justify-content: space-between;
-        clip-path: url("../images/pathes.svg#dividerBottom");
+        clip-path: url("#dividerBottom");
 
         .projects-title{
             @include font20bold;
@@ -753,7 +754,7 @@ header{
                 aspect-ratio: 630 / 500;
                 margin: 0 auto;
                 border-radius: $br30;
-                clip-path: url("../images/pathes.svg#sliderPath");
+                clip-path: url("#sliderPath");
                 overflow: hidden;
                 display: flex;
                 align-items: center;
