@@ -1136,7 +1136,7 @@ header .logo img {
 #gallery .image-container:nth-of-type(3) {
   grid-column: 4;
   grid-row: 7/span 8;
-  clip-path: url("../images/pathes.svg#gallerySmallPath");
+  clip-path: url("#gallerySmallPath");
 }
 #gallery .image-container:nth-of-type(4) {
   grid-column: 5;
@@ -1145,7 +1145,7 @@ header .logo img {
 #gallery .image-container:nth-of-type(5) {
   grid-column: 5;
   grid-row: 11/span 8;
-  clip-path: url("../images/pathes.svg#gallerySmallPath");
+  clip-path: url("#gallerySmallPath");
 }
 #gallery .image-container:nth-of-type(6) {
   grid-column: 6;
@@ -1155,7 +1155,7 @@ header .logo img {
   grid-column: 3;
   grid-row: 5/span 8;
   background-color: #3B342E;
-  clip-path: url("../images/pathes.svg#gallerySmallPath");
+  clip-path: url("#gallerySmallPath");
 }
 #gallery .image-container:nth-of-type(8) {
   grid-column: 4;
@@ -1166,13 +1166,13 @@ header .logo img {
   grid-column: 4;
   grid-row: 1/span 8;
   background-color: #3B342E;
-  clip-path: url("../images/pathes.svg#gallerySmallRotatePath");
+  clip-path: url("#gallerySmallRotatePath");
 }
 #gallery .image-container:nth-of-type(10) {
   grid-column: 5;
   grid-row: 5/span 8;
   background-color: #3B342E;
-  clip-path: url("../images/pathes.svg#gallerySmallRotatePath");
+  clip-path: url("#gallerySmallRotatePath");
 }
 #gallery img {
   width: 100%;
@@ -1196,17 +1196,17 @@ header .logo img {
   #gallery .image-container:nth-of-type(1) {
     grid-column: 1/span 3;
     grid-row: 1/span 12;
-    clip-path: url("../images/pathes.svg#galleryBigPath");
+    clip-path: url("#galleryBigPath");
   }
   #gallery .image-container:nth-of-type(2) {
     grid-column: 1;
     grid-row: 18/span 8;
-    clip-path: url("../images/pathes.svg#gallerySmallRotatePath");
+    clip-path: url("#gallerySmallRotatePath");
   }
   #gallery .image-container:nth-of-type(3) {
     grid-column: 2;
     grid-row: 24/span 8;
-    clip-path: url("../images/pathes.svg#gallerySmallPath");
+    clip-path: url("#gallerySmallPath");
   }
   #gallery .image-container:nth-of-type(4) {
     grid-column: 1/span 3;
@@ -1220,31 +1220,31 @@ header .logo img {
   #gallery .image-container:nth-of-type(6) {
     grid-column: 3;
     grid-row: 18/span 8;
-    clip-path: url("../images/pathes.svg#gallerySmallRotatePath");
+    clip-path: url("#gallerySmallRotatePath");
   }
   #gallery .image-container:nth-of-type(7) {
     grid-column: 3;
     grid-row: 5/span 8;
     background-color: #3B342E;
-    clip-path: url("../images/pathes.svg#gallerySmallPath");
+    clip-path: url("#gallerySmallPath");
   }
   #gallery .image-container:nth-of-type(8) {
     grid-column: 3;
     grid-row: 24/span 8;
     background-color: #3B342E;
-    clip-path: url("../images/pathes.svg#gallerySmallPath");
+    clip-path: url("#gallerySmallPath");
   }
   #gallery .image-container:nth-of-type(9) {
     grid-column: 2;
     grid-row: 18/span 8;
     background-color: #3B342E;
-    clip-path: url("../images/pathes.svg#gallerySmallRotatePath");
+    clip-path: url("#gallerySmallRotatePath");
   }
   #gallery .image-container:nth-of-type(10) {
     grid-column: 1;
     grid-row: 24/span 8;
     background-color: #3B342E;
-    clip-path: url("../images/pathes.svg#gallerySmallPath");
+    clip-path: url("#gallerySmallPath");
   }
 }
 
