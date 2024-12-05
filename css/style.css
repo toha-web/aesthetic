@@ -46,6 +46,8 @@ section {
   padding: 0 18px;
   flex-grow: 1;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
   transition: box-shadow 0.2s;
 }
 .button-order:hover {
@@ -300,6 +302,8 @@ header .logo img {
   width: 100%;
   padding: 18px;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
   transition: box-shadow 0.2s;
 }
 #hero .present-order:hover {
